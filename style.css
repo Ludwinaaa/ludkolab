@@ -1,0 +1,130 @@
+body{
+    margin:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    display:flex;
+    top:0;
+    width:100%;
+    background-color:#c8e4ee;
+    justify-content:space-between;
+    position: fixed;
+    z-index:1;
+    color:#f38a63;
+    padding:10px;
+    font-size:20px;
+}
+nav a{
+    padding:10px 25px;
+    text-decoration:none;
+    color:#f38a63;
+}
+
+section.home{
+    background:url("bg2.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    height: 870px;;
+}
+section.home div{
+    text-align:center;
+    color:#c8e4ee(150, 62, 3);
+    margin:auto;
+    width:50%;
+    padding:150px;
+}
+section.home .welcome{
+    font-size:40px;
+    color: #f38a63;
+}
+section.home a{
+    color:#f16b3a;
+    padding:10px 20px;
+    text-decoration: none;
+    box-shadow:0px 0px 3px;
+    border-radius:20px;
+}
+
+section.about{
+background-color:#c8e4ee;
+height:670px;
+padding-top:100px;
+justify-content: center;
+}
+section.about div{
+    color:#f38a63;
+    margin:auto;
+    text-align:center;
+    width:70%;
+}
+section.about img{
+    height:300px;
+    border-radius:20px;
+}
+
+section.product{
+    background:url('b3.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    height: 700px;
+}
+section.product .container {
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+    padding-top:10px;
+}
+section.product .container .card{
+    background-color:#c8e4ee;
+    text-align: center;
+    padding:5px;
+    width:30%;
+    height:280px;
+    margin:15px;
+    overflow-x:auto;
+    border-radius:15px;
+    box-shadow:0 4px 8px #f38a63;
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+    flex-direction: column;
+}
+section.product .container .card img{
+    width:50%;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow:0 8px 16px #f38a63;
+}
+
+section.contact{
+    background-color:#f38a63;
+    text-align: center;
+    padding: 20px 0
+    
+}
+
+.contact-info {
+    margin: auto;
+    color: #c8e4ee;
+    padding-top: 10px;
+    max-width: 600px; 
+}
+
+
+footer{
+    background-color:#c8e4ee;
+    height:50px;
+}
+footer .medsos{
+    text-align:center;
+    padding-top:10px;
+}
+footer .medsos a{
+    color:#f38a63;
+    font-size:20px;
+    padding:5px 20px;
+}
+.medsos a:hover{
+    color:#b13a1a;
+}
